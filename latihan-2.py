@@ -5,7 +5,7 @@ def cek_palindrom(kata):
     
     # Rekursi: bandingkan karakter pertama dan terakhir kalimat
     if kata[0] == kata[-1]:
-        # Panggil fungsi is_palindrome dengan menghilangkan karakter pertama dan terakhir kalimat
+        # Panggil fungsi cek_palindrome dengan menghilangkan karakter pertama dan terakhir kalimat
         return cek_palindrom(kata[1:-1])
     else:
         return False
