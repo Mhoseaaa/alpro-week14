@@ -11,3 +11,10 @@ def cek_prima(n, i=2):
     
     # Recursive case
     return cek_prima(n, i + 1)
+
+# user input
+n = int(input("Enter a number: "))
+
+# Call the function
+prima = cek_prima(n)
+print(f"Angka {n} merupakan prima: {prima}")

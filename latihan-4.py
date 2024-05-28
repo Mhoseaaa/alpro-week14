@@ -6,9 +6,9 @@ def jumlah_rekursif(s):
         # Kasus rekursif: memecah karakter pertama dan menjumlahkannya dengan hasil rekursi dari sisa string
         return int(s[0]) + jumlah_rekursif(s[1:])
 
-# Get input from the user
+# input user
 input = input("Masukkan String: ")
 
-# Call the function with the user input
+# Panggil fungsi jumlah_rekursif
 hasil = jumlah_rekursif(input)
 print("Result:", hasil)
