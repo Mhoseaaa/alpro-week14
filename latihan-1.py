@@ -17,4 +17,4 @@ n = int(input("Enter a number: "))
 
 # Call the function
 prima = cek_prima(n)
-print(f"Angka {n} merupakan prima: {prima}")
+print(f"{n} merupakan prima? : {prima}")
